@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
+header{
+    padding-top: 10px;  
+    padding-right: 60px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+nav{    
+    float: right;
+    margin-right: 40px;
+    margin-top: 6px;
+    padding: 20px 0px 0 30px ;   /* arriba, derecha, abajo, izquierda*/
+}
+
+
+nav ul li{
+    
+    display: inline;
+    padding: 0;
+    margin:0 0 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial;
+}
+
+nav ul li a:hover{
+    color: rgb(55, 192, 226);
+}
+
+
+
+.logos #logo1{
+    width: 315px;
+}
+
+.logos #logo2{
+    width: 180px;
+}
+
+main{
+    margin: 20px 100px 0 100px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+}
+
+footer div{
+    margin: 10px 100px 0 100px;   
+    padding: 10px 0px 10px 20px;
+}
+
+#insumos,#ramiro{
+    font-size: 14px;
+    font-family: Arial;
+    padding: 10px 0px 10px 0px;
+    color: rgb(55, 192, 226);
+
+}
+
+#ramiro{
+    margin-left: 100px;
+    padding-left: 260px;
+}
+
+#insumos{
+    margin-right: 3px;
+}
